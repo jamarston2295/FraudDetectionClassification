@@ -1,1 +1,3 @@
 # FraudDetectionClassification
+
+This project looks to explore the best way to classify a credit card transaction dataset to detect fraudulent transactions. The dataset was taken from a kaggle challenge https://www.kaggle.com/datasets/vardhansiramdasu/fraudulent-transactions-prediction and features 9 variables and 2 target variables. The machine learning algorithms considered were Random Forest, Naive Bayes and SVM. I also explored the effects of PCA on the dataset as it contained 1.2 million rows of data once sampling had taken place. The metrics used to evaluate the performance of the models were accuracy, precision, recall and F-score. The results would suggest that the Random Forest performed best across the metrics used.
